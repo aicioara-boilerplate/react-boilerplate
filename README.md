@@ -20,7 +20,7 @@ npm run watch
 
 ## Build
 
-``bash
+```bash
 npm install
 npm run build
 ```
