@@ -17,6 +17,7 @@ venv/
 # Debug
 npm-debug.log
 package-lock.json
+yarn.lock
 
 # Extras
 temp/

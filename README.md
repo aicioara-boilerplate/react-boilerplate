@@ -18,6 +18,11 @@ npm install
 npm run watch
 ```
 
+```bat
+   npm / yarn install 
+   npm / yarn run watch 
+```
+
 ## Build
 
 ```bash

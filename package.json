@@ -1,18 +1,18 @@
 {
   "name": "react-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is the react boilerplate repository - replace me",
   "main": "src/js/main.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV=production webpack --config webpack.prod.js",
-    "watch": "NODE_ENV=development webpack-dev-server --config webpack.dev.js"
+    "build": "set NODE_ENV=production && webpack --config webpack.prod.js",
+    "watch": "set NODE_ENV=development && webpack-dev-server --config webpack.dev.js --open"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aicioara-boilerplate/react.git"
   },
-  "author": "Andrei Cioara",
+  "author": "Ovidiu Olea",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aicioara-boilerplate/react/issues"
