@@ -6,9 +6,11 @@ class TemplateComponent extends React.Component {
     }
 
     render() {
-        return <div>
-            TemplateComponent
-        </div>;
+        return (
+            <div>
+                TemplateComponent
+            </div>
+        );
     }
 
     componentDidMount() {

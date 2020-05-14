@@ -7,20 +7,20 @@ import App from 'App.jsx'
 
 import 'bootstrap/dist/js/bootstrap.min.js';
 
-import 'style.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'style.css'
 
 import 'favicon.ico';
 
 export default class Root extends React.Component {
     render() {
-        return <Router>
-            <div>
+        return (
+            <Router>
                 <Switch>
                     <Route exact path="/" component={App}/>
                     <Route component={PageNotFound}/>
                 </Switch>
-            </div>
-        </Router>
+            </Router>
+        )
     }
 }

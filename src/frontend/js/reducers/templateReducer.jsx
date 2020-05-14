@@ -1,4 +1,4 @@
-import * as template from 'actions/templateAction.jsx';
+import * as template from 'actions/templateActions.jsx';
 
 const initialState = {
     value: 0,
