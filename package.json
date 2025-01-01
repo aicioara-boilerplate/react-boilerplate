@@ -20,7 +20,6 @@
   "homepage": "https://github.com/aicioara-boilerplate/react#readme",
   "dependencies": {
     "bootstrap": "4.3.1",
-    "connected-react-router": "6.4.0",
     "jquery": "3.4.1",
     "popper.js": "1.15.0",
     "react": "16.8.6",
